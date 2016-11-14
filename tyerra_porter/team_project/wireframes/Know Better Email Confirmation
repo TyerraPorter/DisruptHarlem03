@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Know Better</title>
+</head>
+<body>
+<style>	{ text-align: center;
+</style>
+
+<h1> Know Better</h1>
+<h6> If you knew better, you'd do better...</h6>
+<br>
+<br>
+<br>
+<h2> Check your email to confirm your acount</h2>
+<form>
+  Username:<br>
+  <input type="text" name="username"><br>
+  Password:<br>
+  <input type="password" name="psw">
+</form>
+</body>
+</html>
