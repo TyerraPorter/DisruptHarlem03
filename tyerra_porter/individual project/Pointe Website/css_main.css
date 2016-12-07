@@ -1,0 +1,86 @@
+head{
+
+
+
+
+}
+
+ul{
+
+	list-style-type: none;
+
+
+
+
+	margin: 0;
+
+	padding: 0;
+
+	width:60px;
+
+}
+
+	
+
+li {
+
+    float: left;
+
+}
+
+
+
+
+a {
+
+    display: block;
+
+    padding: 8px;
+
+}
+
+nav{
+
+
+
+
+}
+
+body{
+
+background-color:#000000 ; 
+
+background-repeat: no-repeat;
+
+background-image: url("../img/pointe_logo.jpg")
+
+}
+
+form{text-align: center;
+
+	color: white;
+
+
+
+
+}
+
+h4{
+
+	
+
+}
+
+p{
+
+color: white;
+
+text-align: center;
+
+}
+
+.footer-social { float: center;}
+
+.footer-social li { display: inline;}
+
+.footer-social span { margin-top: 20px;}
