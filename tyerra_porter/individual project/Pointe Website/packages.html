@@ -1,14 +1,26 @@
 <!DOCTYPE html>
 
+
+
+
 <html>
+
+
+
 
 <head>
 
-	<title>Pointe</title>
+
+
+
+ <title>Pointe</title>
   <link href="css_main.css" rel="stylesheet" type="text/css">
   
   <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+
 
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
@@ -17,6 +29,9 @@
   /*img.center{ 
               display: block;
               margin: 0 auto;
+
+
+
 
   }*/
   body {
@@ -28,13 +43,84 @@
     left: 25%;
   }
 
+
+
+
   .topnav{ 
     display:inline;
     padding:200px;
     margin:20px;
 
+
   }
-  button {
+* {
+    box-sizing: border-box;
+}
+
+/* Create three columns of equal width */
+.columns {
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+}
+
+/* Style the list */
+.price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+/* Add shadows on hover */
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+/* Pricing header */
+.price .header {
+    background-color: #111;
+    color: white;
+    font-size: 25px;
+    height: 150px;
+    width:300px;
+
+}
+
+/* List items */
+.price li {
+    border-bottom: 1px solid #eee;
+    background-color: gray;
+    padding: 20px;
+    text-align: center;
+    height: 150px;
+    width:300px;
+    font-size: 18px;
+}
+
+/* Grey list item */
+.price .grey {
+    background-color: #eee;
+    font-size: 20px;
+    height: 150px;
+    width:300px;
+}
+}
+
+/* The "Sign Up" button */
+.button {
+    background-color: #b3e6ff;
+    border: none;
+    color: black;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+button {
     background-color: black;
     border:none;
     color: white;
@@ -53,11 +139,25 @@ a:visited {
   color: white;
 }
 
+/* Change the width of the three columns to 100% 
+(to stack horizontally on small screens) */
+@media only screen and (max-width: 600px) {
+    .columns {
+        width: 100%;
+    }
+}
+
+
 
 </style>
 </head>
 
-  <ul class="topnav" id="myTopnav">
+
+
+
+<body>
+
+<ul class="topnav" id="myTopnav">
 
   <button><li><a href="index.html">Home</a></li></button>
 
@@ -68,103 +168,149 @@ a:visited {
   <button> <li><a href="partners.html">Partners</a></li></button>
 
   <button><li><a href="sign_up.html">Sign Up</a></li></button>
-
-
 </ul>
-<body>
+
 <div class="image">
   <img src="img/pointe_large.jpg" align="middle">
 </div>
 
 
-<div class="w3-panel w3-pale-blue w3-leftbar w3-rightbar w3-border-blue">
 
-  <p>Pointe($50/mo)-        Access to our teleprompter services
-                            Auto correct to ensure professionalism 
-                            Timing Function
-                            Helpful tips via email
-</p>
 
-</div>
 
 <div class="w3-panel w3-pale-blue w3-leftbar w3-rightbar w3-border-blue">
 
-<table>
-  <tr>
-    <td>Product Name</td>
-    <td>Pricing</td>
-    <td>Product Description</td>
-  </tr>
-</table>
-<table>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-</table>
-<table>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-</table>
 
-  <p>Pointe Plus($150/mo)-  Access to our teleprompter services
-                            Auto correct to ensure professionalism 
-                            Timing Function
-                            Helpful tips via email
-                            Dictionary and Thesaurus Function
-                            Access to our online tutorials
-                            24/7 email correspondence whenever you need it
-</p>
+
+
+  
+
+
 
 </div>
+
+
+
 
 <div class="w3-panel w3-pale-blue w3-leftbar w3-rightbar w3-border-blue">
 
-  <p>Pointe Premium($350/mo)- Access to our teleprompter services
-                              Auto correct to ensure professionalism 
-                              Timing Function
-                              Helpful tips via email
-                              Dictionary and Thesaurus Function
-                              Access to our online tutorials
-                              24/7 email correspondence whenever you need it
-                              Live Chat one on one help with our team
-                              Access to database of public speakers to book for your next event
-                              Promoting your own speakers on our database as well as popular search engines.
-                              Retreat options for a more productive work environment
-</p>
+
+
+<div class="columns">
+  <ul class="price">
+    <li class="header">Pointe</li>
+    <li class="grey">$50/mo</li>
+    <li>Access to our teleprompter services</li>
+    <li>Auto correct to ensure professionalism</li>
+    <li>Timing Function</li>
+    <li>Helpful tips via email</li>
+    <li class="grey"><a href="#"><button>Sign Up</a></li>
+  </ul>
+</div>
+<div class="columns">
+  <ul class="price">
+    <li class="header">Pointe Plus</li>
+    <li class="grey">$150/mo</li>
+    <li> Access to our online tutorials</li>
+    <li>24/7 email correspondence </li>
+    <li> Dictionary and Thesaurus </li>
+    <li>Invites to Events</li>
+    <li class="grey"><a href="#"><button>Sign Up</button></a></li>
+  </ul>
+</div>
+<div class="columns">
+  <ul class="price">
+    <li class="header">Pointe Premium</li>
+    <li class="grey">$350/mo</li>
+    <li>Live Chat one on one help with our team</li>
+    <li>Access to database of public speakers</li>
+    <li> Promoting your own speakers on our database</li>
+    <li>Promoting your own speakers on our database</li>
+    <li class="grey"><a href="#"><button>Sign Up</button></a></li>
+  </ul>
+</div>
 
 </div>
+
+
+
+
+<div class="w3-panel w3-pale-blue w3-leftbar w3-rightbar w3-border-blue">
+
+
+
+
+</div>
+
+
+
+
+
+
+
 
 
 
 
 <p><em>Pointe is designed to help you confidently execute your presentation.  Make a bold statement like no other...</em></p>
 
+
+
+
 <div class="footer-social">
+
+
+
 
     <span>Connect with us:</span>
 
+
+
+
     <li><a href="http://www.facebook.com">
+
+
+
 
         <img src='http://www.womenactionmedia.org/cms/assets/themes/crate/images/social/facebook.png' />
 
+
+
+
     </a></li>
 
+
+
+
 <li><a href="http://www.twitter.com">
+
+
+
 
     <img src='http://grfx.cstv.com/schools/wis/graphics/icon_twitter24.jpg' />
 
+
+
+
 </a></li>
+
+
+
 
 <li><a href="http://www.twitter.com">
 
+
+
+
     <img src='http://icons.iconarchive.com/icons/bokehlicia/alike/24/youtube-icon.png' />
 
+
+
+
 </a></li>
+
+
+
 
 
 </div>
@@ -173,6 +319,16 @@ a:visited {
 
 
 
+
+
+
+
+
+
+
 </body>
 
-</html>
+
+
+
+</html
